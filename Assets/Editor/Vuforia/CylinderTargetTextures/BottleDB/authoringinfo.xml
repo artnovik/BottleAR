@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.7.4">
+        <CylinderTarget name="Blanc_Cylinder" version="3.0" targetId="2b18b65a3a7b4890b3585995434ab809" sideLength="12.000000" topDiameter="8.000000" bottomDiameter="8.000000" sideImage="Blanc_Cylinder.Body_scaled.jpg"/>
+        <CylinderTarget name="Topette_Cylinder" version="3.0" targetId="a60816296b694f36b94312749ee2a870" sideLength="10.000000" topDiameter="6.000000" bottomDiameter="6.000000" sideImage="Topette_Cylinder.Body_scaled.jpg"/>
+        <CylinderTarget name="Rouge_Cylinder" version="3.0" targetId="91f7e1aa06e14ba294933d79b0a3bda2" sideLength="12.000000" topDiameter="8.000000" bottomDiameter="8.000000" sideImage="Rouge_Cylinder.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScreenCut.unity
+    guid: 0c1938d047c562c4bae5230b69592d2e
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 18e326c264e84b64d962e86fc609f556
+  - enabled: 1
+    path: Assets/Scenes/Bottle/Bottle1.unity
+    guid: cc305f558c797a44d94ed7713b022161
+  - enabled: 1
+    path: Assets/Scenes/Bottle/Bottle2.unity
+    guid: a235c86a22f5be34e9f17711e7a99235
+  - enabled: 1
+    path: Assets/Scenes/Garrincha.unity
+    guid: 4ca4b8696cdf91e4180241840a2849a6
