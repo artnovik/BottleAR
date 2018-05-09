@@ -6,8 +6,7 @@ using Vuforia;
 public class ImageTargetBehaviour : MonoBehaviour, ITrackableEventHandler
 {
     private TrackableBehaviour mTrackableBehaviour;
-    [SerializeField]
-    private LabelManager labelManagerScript;
+    [SerializeField] private LabelManager labelManagerScript;
 
     private void Start()
     {

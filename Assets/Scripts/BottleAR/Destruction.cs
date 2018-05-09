@@ -4,11 +4,9 @@ using UnityEngine;
 
 public class Destruction : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject _destroyedVersion;
+    [SerializeField] private GameObject _destroyedVersion;
 
-    [SerializeField]
-    private GameObject _holeVersion;
+    [SerializeField] private GameObject _holeVersion;
 
     private void Start()
     {

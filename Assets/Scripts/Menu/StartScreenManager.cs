@@ -13,20 +13,17 @@ public class StartScreenManager : MonoBehaviour
 
     private Image[] startEverythingIncludingBackground;
 
-    [SerializeField]
-    private GameObject allImagesContainer;
+    [SerializeField] private GameObject allImagesContainer;
 
     private Image[] allImages;
 
-    [SerializeField]
-    private GameObject allLettersContainer;
+    [SerializeField] private GameObject allLettersContainer;
 
     private Image[] allLettersImages;
 
     private int currentActiveAnimatorNumber;
 
-    [SerializeField]
-    private Animator[] allAnimatorsSequence;
+    [SerializeField] private Animator[] allAnimatorsSequence;
 
     private readonly Color32 startColor = new Color32(255, 255, 255, 0);
 

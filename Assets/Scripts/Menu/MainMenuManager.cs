@@ -11,35 +11,25 @@ using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject buttonGoToSearchGO;
-    [SerializeField]
-    private Animator mainScreenAnimator;
+    [SerializeField] private GameObject buttonGoToSearchGO;
+    [SerializeField] private Animator mainScreenAnimator;
 
-    [SerializeField]
-    private Animator backgroundAnimator;
+    [SerializeField] private Animator backgroundAnimator;
 
-    [SerializeField]
-    private GameObject buttonGoToHomeGO;
-    [SerializeField]
-    private Animator searchScreenAnimator;
+    [SerializeField] private GameObject buttonGoToHomeGO;
+    [SerializeField] private Animator searchScreenAnimator;
 
-    [SerializeField]
-    private InputField searchBarInputField;
+    [SerializeField] private InputField searchBarInputField;
 
-    [SerializeField]
-    private Text textNotFound;
+    [SerializeField] private Text textNotFound;
 
-    [SerializeField]
-    private GameObject ButtonsScenesContainer;
+    [SerializeField] private GameObject ButtonsScenesContainer;
 
-    [SerializeField]
-    private GameObject[] allButtons;
+    [SerializeField] private GameObject[] allButtons;
 
     private Button[] buttonComponentsMas;
 
-    [SerializeField]
-    private Vector2[] allButtonsTransformPositions;
+    [SerializeField] private Vector2[] allButtonsTransformPositions;
 
     #region Singleton
 
@@ -144,7 +134,9 @@ public class MainMenuManager : MonoBehaviour
         }
 
         CultureInfo languageCultureInfo = CultureInfo.CurrentCulture;
-        var buttonListToReturn = allButtons.Where(buttonMatched => languageCultureInfo.CompareInfo.IndexOf(buttonMatched.GetComponent<ButtonData>().applicationName, searchText, CompareOptions.IgnoreCase) >= 0).ToList();
+        var buttonListToReturn = allButtons.Where(buttonMatched =>
+            languageCultureInfo.CompareInfo.IndexOf(buttonMatched.GetComponent<ButtonData>().applicationName,
+                searchText, CompareOptions.IgnoreCase) >= 0).ToList();
 
         if (buttonListToReturn.Count == 0)
         {

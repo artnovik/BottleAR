@@ -3,17 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using Vuforia;
 
 public class LabelManager : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject destroyedVersion;
+    [SerializeField] private GameObject destroyedVersion;
 
-    [SerializeField]
-    private VideoPlayer videoPlayer;
+    [SerializeField] private VideoPlayer videoPlayer;
 
-    [SerializeField]
-    private Renderer labelForVideoMeshRenderer;
+    [SerializeField] private Renderer labelForVideoMeshRenderer;
 
     private const float delay = 3f;
 
@@ -54,6 +52,14 @@ public class LabelManager : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    private bool flash = false;
+
+    public void Flashlight()
+    {
+        CameraDevice.Instance.SetFlashTorchMode(!flash);
+        flash = !flash;
     }
 
     public void RestartScene()

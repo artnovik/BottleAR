@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StartScreenAnimCaller : MonoBehaviour
 {
-    [SerializeField]
-    private StartScreenManager startScreenManager;
+    [SerializeField] private StartScreenManager startScreenManager;
 
     public void NextAnimation()
     {

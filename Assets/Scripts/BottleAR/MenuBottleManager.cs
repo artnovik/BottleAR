@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuBottleManager : MonoBehaviour
 {
-    [SerializeField]
-    private Object relatedSceneToLoad;
+    [SerializeField] private Object relatedSceneToLoad;
 
     public void LoadBottleScene()
     {
