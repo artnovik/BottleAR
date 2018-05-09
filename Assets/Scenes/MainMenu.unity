@@ -2286,8 +2286,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "<i><color=#ffffff00>eymaaAR</color></i> est l\u2019application qui vous\r
-    surprend, qui vous fait entrer dans       la r\xE9alit\xE9 augment\xE9e !\r\n"
+  m_Text: "<color=#ffffff00>eymaaAR</color> est l\u2019application qui vous\r surprend,
+    qui vous fait entrer dans       la r\xE9alit\xE9 augment\xE9e !\r\n"
 --- !u!222 &644102218
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6425,7 +6425,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: <i><b>eymaaAR</b></i>
+  m_Text: <b>eymaaAR</b>
 --- !u!222 &1678253901
 CanvasRenderer:
   m_ObjectHideFlags: 0
