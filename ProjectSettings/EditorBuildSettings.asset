@@ -12,11 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 18e326c264e84b64d962e86fc609f556
   - enabled: 1
-    path: Assets/Scenes/Bottle/Bottle1.unity
+    path: Assets/Scenes/Bottle/BottleBlanc.unity
     guid: cc305f558c797a44d94ed7713b022161
   - enabled: 1
-    path: Assets/Scenes/Bottle/Bottle2.unity
+    path: Assets/Scenes/Bottle/BottleRouge.unity
     guid: a235c86a22f5be34e9f17711e7a99235
   - enabled: 1
     path: Assets/Scenes/Garrincha.unity
     guid: 4ca4b8696cdf91e4180241840a2849a6
+  m_configObjects: {}
