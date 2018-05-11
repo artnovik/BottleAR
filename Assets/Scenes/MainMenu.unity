@@ -283,7 +283,7 @@ RectTransform:
   - {fileID: 1093468438}
   - {fileID: 723193418}
   m_Father: {fileID: 814712723}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -348,7 +348,7 @@ RectTransform:
   - {fileID: 1497483854}
   - {fileID: 1719952311}
   m_Father: {fileID: 814712723}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2251,8 +2251,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -21.45, y: 0}
-  m_SizeDelta: {x: 42.9, y: 0}
+  m_AnchoredPosition: {x: -12.600015, y: 154.99997}
+  m_SizeDelta: {x: 42.9, y: -310}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &644102217
 MonoBehaviour:
@@ -2287,7 +2287,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "<color=#ffffff00>eymaaAR</color> est l\u2019application qui vous\r surprend,
-    qui vous fait entrer dans       la r\xE9alit\xE9 augment\xE9e !\r\n"
+    qui vous fait entrer dans la r\xE9alit\xE9 augment\xE9e !\r\n"
 --- !u!222 &644102218
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2912,7 +2912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &808996223
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3143,6 +3143,7 @@ RectTransform:
   m_Children:
   - {fileID: 516521981}
   - {fileID: 808996223}
+  - {fileID: 2052107016}
   - {fileID: 1300107994}
   - {fileID: 51697287}
   - {fileID: 105649488}
@@ -4888,7 +4889,7 @@ RectTransform:
   - {fileID: 1342344057}
   - {fileID: 560252207}
   m_Father: {fileID: 814712723}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6390,7 +6391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10.85, y: 0}
+  m_AnchoredPosition: {x: -2, y: 0}
   m_SizeDelta: {x: 21.7, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1678253900
@@ -7316,7 +7317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonGoToSearchGO: {fileID: 1851657207}
   mainScreenAnimator: {fileID: 1300107995}
-  backgroundAnimator: {fileID: 808996224}
+  backgroundAnimator: {fileID: 2052107017}
   buttonGoToHomeGO: {fileID: 1764692021}
   searchScreenAnimator: {fileID: 51697288}
   searchBarInputField: {fileID: 2102356459}
@@ -7626,6 +7627,93 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2037067804}
+--- !u!1 &2052107015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2052107016}
+  - component: {fileID: 2052107019}
+  - component: {fileID: 2052107018}
+  - component: {fileID: 2052107017}
+  m_Layer: 5
+  m_Name: BackgroundTextureCity (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2052107016
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052107015}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 814712723}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 321, y: 0}
+  m_SizeDelta: {x: 1400, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &2052107017
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052107015}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3350c9234706c434fb305b2674ca7ebb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2052107018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052107015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: f515db0230174384587fcbd7193c737e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2052107019
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052107015}
 --- !u!1 &2060567758
 GameObject:
   m_ObjectHideFlags: 0
