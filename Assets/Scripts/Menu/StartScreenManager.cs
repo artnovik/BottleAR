@@ -74,7 +74,8 @@ public class StartScreenManager : MonoBehaviour
 
         //yield return new WaitForSeconds(duration);
         //Debug.Log(Time.timeSinceLevelLoad);
-        SceneManager.LoadScene("MainMenu");
+        //SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Cartoon");
     }
 
     public void NextAnimation()
