@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Garrincha.unity
     guid: 4ca4b8696cdf91e4180241840a2849a6
+  - enabled: 1
+    path: Assets/Scenes/ASHB.unity
+    guid: 72aa02530a6eedf42aba6cdb76e57591
   m_configObjects: {}

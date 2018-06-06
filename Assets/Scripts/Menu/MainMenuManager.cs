@@ -99,6 +99,8 @@ public class MainMenuManager : MonoBehaviour
         }
         else if (clickedButtonGO == buttonGoToHomeGO)
         {
+            searchBarInputField.text = string.Empty;
+            //OnInputFieldTextChange(string.Empty);
             mainScreenAnimator.Play("MainScreenAnimationUp");
             searchScreenAnimator.Play("SearchScreenAnimationDown");
             backgroundAnimator.Play("BackgroundAnimationLeft");
